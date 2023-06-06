@@ -6,12 +6,8 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import daniel.lop.io.marvelappstarter.R
-import daniel.lop.io.marvelappstarter.data.model.character.CharacterModel
 import daniel.lop.io.marvelappstarter.data.model.comic.ComicModel
-import daniel.lop.io.marvelappstarter.databinding.ItemCharacterBinding
 import daniel.lop.io.marvelappstarter.databinding.ItemComicBinding
-import daniel.lop.io.marvelappstarter.util.limitDescription
 
 class ComicAdapter : RecyclerView.Adapter<ComicAdapter.ComicViewHolder>() {
 
