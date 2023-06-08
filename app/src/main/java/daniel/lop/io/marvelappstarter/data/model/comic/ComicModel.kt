@@ -1,6 +1,5 @@
 package daniel.lop.io.marvelappstarter.data.model.comic
 
-import android.accounts.AuthenticatorDescription
 import com.google.gson.annotations.SerializedName
 import daniel.lop.io.marvelappstarter.data.model.ThumbnailModel
 import java.io.Serializable
